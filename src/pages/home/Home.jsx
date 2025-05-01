@@ -106,7 +106,7 @@ function ListCoin() {
 			{loading ? (
 				<div className="text-center">
 					<Spin size="large" className="mb-3" />
-					<p>⏳ Грузим, не ссы...</p>
+					<p>⏳ Подключение к серверу...</p>
 				</div>
 			) : (
 				<Table
